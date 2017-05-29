@@ -9,7 +9,7 @@ Docker image for Stanford corenlp server
   
         docker run -p 9000:9000 --name corenlp-server -d v1shwa/standord-corenlp-server
     
-    You can now access the Corenlp server at [localhost:9999](http://localhost:9999/)
+    You can now access the Corenlp server at [localhost:9000](http://localhost:9000/)
 
 ## API Usage
   Follow the instructions here on [Corenlp documentation](https://stanfordnlp.github.io/CoreNLP/corenlp-server.html#api-documentation)
