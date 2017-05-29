@@ -10,7 +10,8 @@ RUN apk add --update --no-cache \
     wget
 
 RUN wget ${CORENLP_URL} -O stanford-corenlp.zip
-RUN unzip -q stanford-corenlp.zip
+RUN unzip -q stanford-corenlp.zip && \
+    rm stanford-corenlp.zip
 RUN mv $(find -type d -name 'stanford*') stanford-corenlp
 
 RUN export CLASSPATH="`find /stanford-corenlp -type f -name '*.jar'`"
