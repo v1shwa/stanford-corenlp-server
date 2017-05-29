@@ -1,0 +1,11 @@
+sudo: required
+services:
+  - docker
+language: java
+jdk:
+  - oraclejdk8
+install:
+  - docker build -t stanford-corenlp .
+  - docker run -d -p 9000:9000 --name corenlp stanford-corenlp
+script:
+  - docker ps | grep -q mldk
