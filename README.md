@@ -1,4 +1,4 @@
-# Standford Corenlp Server
+# Standford Corenlp Server    [![Build Status](https://travis-ci.org/v1shwa/stanford-corenlp-server.svg?branch=master)](https://travis-ci.org/v1shwa/stanford-corenlp-server)    [![Docker Automated buil](https://img.shields.io/docker/automated/v1shwa/ml-devkit.svg)](https://hub.docker.com/r/v1shwa/stanford-corenlp-server)
 Docker image for Stanford corenlp server
 
 ## Installation
