@@ -15,5 +15,5 @@ Docker image for Stanford corenlp server
   Follow the instructions here on [Corenlp documentation](https://stanfordnlp.github.io/CoreNLP/corenlp-server.html#api-documentation)
 
 ## License
-[The MIT License](https://github.com/v1shwa/standford-corenlp-server/blob/master/LICENSE)
+[The MIT License](./LICENSE)
 
